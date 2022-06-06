@@ -1,20 +1,33 @@
-{/* <meta charset="UTF-8"></meta>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> */}
-
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-function colorchange(box)
+class SomeName extends React.Component
+{
+    constructor(props){
+        super(props);
+        this.state = {
+            color: this.colorchange()
+        }
+        this.changeColor = this.changeColor.bind(this)
+      }
+
+    render (){
+      return <div style = {{backgroundColor: this.state.color }} onMouseOver = {this.changeColor} className = "box"></div>
+    }
+
+    changeColor() {
+      this.setState({color: this.colorchange()})
+    }
+
+colorchange()
         {
             // var colors = ["red","green","blue"];
             // var randomcolor= colors[Math.floor(Math.random()*colors.length)];
             var r = Math.floor(Math.random() * 256);
             var g = Math.floor(Math.random() * 256);
             var b = Math.floor(Math.random() * 256);
-            document.getElementById(box).style.backgroundColor = ["rgb(",r,",",g,",",b,")"].join("");
+            return ["rgb(",r,",",g,",",b,")"].join("");
         }
+}
 
+  export default SomeName;

@@ -7,10 +7,10 @@
 
 }
 
-body {
+.App {
 	display: flex;
 	margin: auto;
-	width: 80vw;
+	width: 88vw;
 	flex-wrap: wrap;
 	background-color: black;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import Box from './grid.js';
+import Box from './box';
+import './index.css';
 
 class App extends React.Component
 {
@@ -7,12 +8,14 @@ class App extends React.Component
     render() {
         return (
             <div className = "App">
-              <box></box>
-              <box></box>
-              <box></box>
-              <box></box>
-              <box></box>
-              <box></box>
+              <Box></Box>
+              <Box></Box>
+              <Box></Box>
+              <Box></Box>
+              <Box></Box>
+              <Box></Box>
+              <Box></Box>
+              
             </div>
         );
     }

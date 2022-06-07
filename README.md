@@ -19,4 +19,7 @@ in Psuedo-code:
 4.)
 5.)
 6.)
+
+
+* twitch tutorial link ... https://www.twitch.tv/videos/1496399837
 -->

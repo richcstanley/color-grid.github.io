@@ -7,6 +7,18 @@
 
 }
 
+.cat {
+	height: 20vh;
+	width: 20vw;
+	border: 2px solid white;
+
+
+}
+
+.cat-pic {
+
+}
+
 .App {
 	display: flex;
 	width: 88vw;

@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import cat from './cat.jpg';
 
 
 class Cat extends React.Component {
@@ -11,7 +12,7 @@ class Cat extends React.Component {
 
   render (){
     return <div className = "cat">
-      <img class="cat-pic" src="cat.jpg"></img>
+      <img class="cat-pic" src={cat}></img>
     </div>
   }
 }

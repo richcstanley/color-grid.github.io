@@ -1,6 +1,7 @@
 import React from 'react';
 import Box from './box';
 import Cat from './cat';
+
 import './index.css';
 
 class App extends React.Component

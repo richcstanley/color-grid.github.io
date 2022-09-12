@@ -17,6 +17,19 @@ class App extends React.Component
             <Cat></Cat>
             <Cat></Cat>
             <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
+            <Cat></Cat>
             <Box></Box>
             <Box></Box>
             <Box></Box>

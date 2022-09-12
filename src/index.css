@@ -9,7 +9,7 @@
 
 .cat {
 	height: 20vh;
-	width: 20vw;
+	width: 10vw;
 	border: 2px solid white;
 
 
@@ -23,7 +23,7 @@
 
 .App {
 	display: flex;
-	width: 88vw;
+	width: 50vw;
 	flex-wrap: wrap;
 	background-color: black;
 	justify-content: center;
